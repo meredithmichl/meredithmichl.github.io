@@ -614,7 +614,7 @@ div div header h2 a:hover, header h2 a:focus {
 nav {
     margin-bottom: 3em;
     background-color: #FFFFFF;
-    border-top-width: 7px;
+    border-top-width: 2px;
 	border-top-style: solid;
 	border-bottom-style: none;
     min-width: 250px;
@@ -1170,7 +1170,7 @@ div div header h2 a:hover, header h2 a:focus {
 nav {
     margin-bottom: 3em;
     background-color: #FFFFFF;
-    border-top: 7px solid #000000;
+    border-top: 2px solid #000000;
     border-bottom-width: 2px;
     border-bottom-style: none;
     border-bottom-color: #000000;
@@ -1213,10 +1213,10 @@ a.current {
 
 /* line 329, ../scss/_custom.scss */
 a.current:hover {
-	color: #666666;
+	color: #000000;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: 003DA5;
+	border-bottom-color: 000000;
 }
 
 /*==================================================================================================
@@ -1353,7 +1353,7 @@ footer {
     margin-top: 3em;
     padding-top: 4em;
     padding-bottom: 5em;
-    border-top: 7px solid #000000;
+    border-top: 2px solid #000000;
 }
 
 /* line 456, ../scss/_custom.scss */
@@ -1420,7 +1420,7 @@ Media Queries
   /* line 508, ../scss/_custom.scss */
   header {
     padding-top: 5.25em;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
   }
 
   /* line 513, ../scss/_custom.scss */
