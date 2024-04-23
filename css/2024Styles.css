@@ -1,5 +1,3 @@
-@import url("CrimsonText_SemiBoldItalic/stylesheet.css");
-<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Roboto+Condensed&display=swap" rel="stylesheet">
 /*==================================================================================================
 Foundation Variables
 ==================================================================================================*/
@@ -13,7 +11,7 @@ Type Theme 02
 My Variables
 ==================================================================================================*/
 /*==================================================================================================
-Blog Type Theme 02: Roboto Condensed + Crimson Text
+Blog Type Theme 02: DM Sans + Merriweather
 ==================================================================================================*/
 /*==================================================================================================
 Foundation Variables
@@ -46,8 +44,9 @@ aside.blog-sidebar h5 {
 
 /* line 32, ../scss/master/_blog.scss */
 aside.blog-sidebar h5, .related-posts h5 {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.2;
@@ -58,8 +57,8 @@ aside.blog-sidebar h5, .related-posts h5 {
 
 /* line 43, ../scss/master/_blog.scss */
 aside.blog-sidebar li, aside.blog-sidebar p {
-  font-family: 'Crimson Text', serif;
-  font-weight: normal;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.6;
@@ -92,40 +91,44 @@ aside.blog-sidebar ul li a, aside.blog-sidebar ul li a:hover, aside.blog-sidebar
 
 /* line 71, ../scss/master/_blog.scss */
 article {
-    /* [disabled]border-bottom: 1px solid #666666; */
+    /* [disabled]border-bottom: 1px solid #C29FD8; */
     padding-bottom: 1.25em;
     margin-bottom: 2.5em;
 }
 
 /* line 77, ../scss/master/_blog.scss */
 article h1, h1.large-title {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+ 	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 600;
+  	font-style: normal;
     font-size: 2rem;
     line-height: 2.4;
     letter-spacing: 10;
 }
 
 article h2, h2.archive-title {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
     font-size: 1rem;
     line-height: 1.2;
     letter-spacing: 10;
 }
 
 article h5, h5.Contact {
-    font-family: 'Crimson Text', serif;
-    font-weight: 600;
+  	font-family: "Merriweather", serif;
+	font-weight: 700;
+	font-style: normal;
     font-size: 5rem;
     line-height: 1.2;
     letter-spacing: 0;
 }
 /* line 87, ../scss/master/_blog.scss */
 article h6.date {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: .875rem;
@@ -137,7 +140,7 @@ article h6.date {
 
 /* line 98, ../scss/master/_blog.scss */
 article p, article li {
-  font-family: 'Crimson Text', serif;
+  font-family: "Merriweather", serif;
   font-size: 0.875rem;
   line-height: 1.5;
 }
@@ -151,8 +154,8 @@ article p a {
 
 /* line 108, ../scss/master/_blog.scss */
 article p.byline {
-    font-family: 'Crimson Text', serif;
-    font-weight: 600;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
     font-size: 2rem;
     line-height: 1.2;
     letter-spacing: 0;
@@ -172,7 +175,7 @@ article .caption {
 
 /* line 128, ../scss/master/_blog.scss */
 .comments {
-  border-top: 1px solid #666666;
+  border-top: 1px solid #C29FD8;
   margin-top: 3em;
   padding-top: 3em;
   padding-bottom: 1em;
@@ -180,9 +183,10 @@ article .caption {
 
 /* line 135, ../scss/master/_blog.scss */
 div div div article h2 {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+  	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
     font-size: 1.3125rem;
     line-height: 1.2;
     letter-spacing: 0;
@@ -217,8 +221,9 @@ div div div article h3 {
 .related-posts ul li {
   margin-left: 0;
   line-height: 1.8;
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-  font-weight: normal;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.6;
@@ -245,14 +250,14 @@ h1.archive-title {
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
-  border-bottom: 1px solid #8a8988;
+  border-bottom: 1px solid #3d4644;
   padding-bottom: 2px;
   text-decoration: none;
 }
 
 /* line 194, ../scss/master/_blog.scss */
 .archive-item h2 a:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #3d4644;
     -webkit-transition: color 0.2s ease-out;
     -moz-transition: color 0.2s ease-out;
     transition: color 0.2s ease-out;
@@ -260,8 +265,9 @@ h1.archive-title {
 
 /* line 199, ../scss/master/_blog.scss */
 .archive-item h2 {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.7;
@@ -272,8 +278,9 @@ h1.archive-title {
 
 /* line 210, ../scss/master/_blog.scss */
 .archive-item h6.date {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-  font-weight: 300;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.3;
@@ -290,14 +297,14 @@ h1.archive-title {
 
 /* line 226, ../scss/master/_blog.scss */
 .pagination-custom p span {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.2;
   letter-spacing: 0;
   text-transform: none;
-  color: #8a8988;
+  color: #3d4644;
 }
 
 /* line 237, ../scss/master/_blog.scss */
@@ -342,7 +349,7 @@ Global
 ==================================================================================================*/
 /* line 69, ../scss/_custom.scss */
 html {
-  background-color: #000000 !important;
+  background-color: #FFFFFF !important;
 }
 
 /* line 73, ../scss/_custom.scss */
@@ -362,15 +369,15 @@ p a, li a, .thumbnail-caption a {
     transition: color 0.2s ease-out;
     border-bottom-width: 1px;
     border-bottom-style: none;
-    border-bottom-color: #000000;
+    border-bottom-color: #00acba;
 }
 
 /* line 84, ../scss/_custom.scss */
 p a:hover, li a:hover, .thumbnail-caption a:hover, .caption-hover {
-	color: #666666;
+	color: #00acba;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #000000;
+	border-bottom-color: #00acba;
 }
 
 /* line 89, ../scss/_custom.scss */
@@ -385,7 +392,7 @@ div.lined-list ul {
 
 /* line 97, ../scss/_custom.scss */
 .lined-list li {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
+ 	font-family: "DM Sans", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: inherit;
@@ -398,9 +405,10 @@ div.lined-list ul {
 
 /* line 112, ../scss/_custom.scss */
 .lined-list li strong {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
     font-size: inherit;
     line-height: 1.3;
     letter-spacing: 0;
@@ -409,7 +417,7 @@ div.lined-list ul {
 
 /* line 122, ../scss/_custom.scss */
 .lined-list li:first-child {
-    border-top: 2px none #000000;
+    border-top: 2px none #00acba;
     border-bottom-width: 0px;
 }
 
@@ -443,14 +451,14 @@ ol li {
 
 /* line 150, ../scss/_custom.scss */
 .row blockquote {
-  border-left: 1px solid #666666;
+  border-left: 1px solid #C29FD8;
 }
 
 /* line 154, ../scss/_custom.scss */
 .row blockquote p, .row blockquote {
-	color: #666666;
+	color: #C29FD8;
 	font-style: italic;
-	border-left-color: #000000;
+	border-left-color: #3d4644;
 	border-width: 2px;
 }
 
@@ -458,7 +466,7 @@ ol li {
 .row blockquote cite {
 	font-weight: bold;
 	font-style: normal;
-	color: #000000;
+	color: #3d4644;
 	font-size: 1em;
 	margin-top: 1em;
 }
@@ -470,9 +478,10 @@ div h1, div h2, div h3, div h4, div h5, div h6 {
 
 /* line 171, ../scss/_custom.scss */
 div div h2 {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    font-style: normal;
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
     font-size: 1.5rem;
     line-height: 1.3;
     letter-spacing: 0;
@@ -481,13 +490,14 @@ div div h2 {
 
 /* line 181, ../scss/_custom.scss */
 div div h3 {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 1.125rem;
-  line-height: 1.3;
-  letter-spacing: 0;
-  text-transform: none;
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.125rem;
+	line-height: 1.3;
+	letter-spacing: 0;
+	text-transform: none;
 }
 
 /* line 191, ../scss/_custom.scss */
@@ -538,11 +548,11 @@ Header & Nav
 .top-border {
 	border-top-width: 0px;
 	border-top-style: solid;
-	border-top-color: #000000;
-	background-color: #000000;
+	border-top-color: #00acba;
+	background-color: #ffffff;
 	border-bottom-width: 0px;
 	border-bottom-style: solid;
-	border-bottom-color: #000000;
+	border-bottom-color: #00acba;
 }
 
 /* line 236, ../scss/_custom.scss */
@@ -561,28 +571,30 @@ header div.logo {
 
 /* line 245, ../scss/_custom.scss */
 div div header h1 {
-	font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-	font-weight: bold;
-	font-style: normal;
+ 	font-family: "DM Sans", sans-serif;
+ 	font-optical-sizing: auto;
+ 	font-weight: 600;
+ 	font-style: normal;
 	font-size: 1.625rem;
 	line-height: 1.3;
 	letter-spacing: 0;
 	text-transform: none;
 	line-height: 1.1;
 	text-align: left;
-	color: #000000;
+	color: #3d4644;
 }
 
 /* line 258, ../scss/_custom.scss */
 div div header h1 a {
   text-decoration: none;
-  color: #666666;
+  color: #C29FD8;
 }
 
 /* line 263, ../scss/_custom.scss */
 div div header h2 {
-	font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-	font-weight: 300;
+	font-family: "DM Sans", sans-serif;
+ 	font-optical-sizing: auto;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 0.8125rem;
 	line-height: 1.3;
@@ -590,30 +602,30 @@ div div header h2 {
 	text-transform: none;
 	line-height: 1.4;
 	text-align: left;
-	color: #000000;
+	color: #3d4644;
 	margin-top: 0.75em;
 }
 
 /* line 278, ../scss/_custom.scss */
 div div header h2 a {
     text-decoration: none;
-    color: #000000;
+    color: #3d4644;
 }
 
 /* line 283, ../scss/_custom.scss */
 div div header h1 a:hover, header h1 a:focus {
-  color: #666666;
+  color: #C29FD8;
 }
 
 /* line 287, ../scss/_custom.scss */
 div div header h2 a:hover, header h2 a:focus {
-    color: #000000;
+    color: #3d4644;
 }
 
 /* line 291, ../scss/_custom.scss */
 nav {
     margin-bottom: 3em;
-    background-color: #FFFFFF;
+    background-color: #3d4644;
     border-top-width: 2px;
 	border-top-style: solid;
 	border-bottom-style: none;
@@ -631,9 +643,10 @@ nav ul.inline-list-custom {
 
 /* line 305, ../scss/_custom.scss */
 nav ul.inline-list-custom li {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+	font-family: "DM Sans", sans-serif;
+ 	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
     font-size: 1rem;
     line-height: 2;
     letter-spacing: 0;
@@ -653,16 +666,16 @@ nav ul li a, nav ul li a:hover {
 
 /* line 324, ../scss/_custom.scss */
 a.current {
-	color: #000000;
+	color: #00acba;
 	pointer-events: none;
 }
 
 /* line 329, ../scss/_custom.scss */
 a.current:hover {
-	color: #666666;
+	color: #C29FD8;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: 000000;
+	border-bottom-color: #00acba;
 }
 
 /*==================================================================================================
@@ -711,9 +724,9 @@ Project
 
 /* line 369, ../scss/_custom.scss */
 .thumbnail-caption {
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-style: italic;
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-style: italic;
     font-size: 1.15rem;
     line-height: 1.5;
     letter-spacing: 0;
@@ -755,7 +768,8 @@ hr.project-detail-hr {
 /* line 403, ../scss/_custom.scss */
 .project-img h6 {
   padding-top: 1em;
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 0.875rem;
@@ -771,7 +785,7 @@ hr.project-detail-hr {
 
 /* line 420, ../scss/_custom.scss */
 .back-to-top {
-    color: #000000;
+    color: #C29FD8;
 }
 
 /* line 425, ../scss/_custom.scss */
@@ -804,7 +818,7 @@ footer {
     margin-top: 1em;
     padding-top: 2em;
     padding-bottom: 7em;
-    border-top: 7px solid #000000;
+    border-top: 7px solid #3d4644;
     min-width: 250px;
     text-align: left;
 }
@@ -818,8 +832,9 @@ footer ul {
 
 /* line 462, ../scss/_custom.scss */
 footer li {
-	font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-	font-weight: normal;
+ 	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+	font-weight: 300;
 	font-style: normal;
 	font-size: 0.8125rem;
 	line-height: 1.6;
@@ -828,12 +843,12 @@ footer li {
 	display: inline-block;
 	padding-left: 1em;
 	margin-right: 1em;
-	color: #000000;
+	color: #3d4644;
 }
 
 /* line 476, ../scss/_custom.scss */
 footer li a {
-	color: #000000;
+	color: #3d4644;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
@@ -848,12 +863,12 @@ footer div.social-icons {
 footer div.social-icons i {
 	padding-left: 0.25em;
 	padding-right: 0.25em;
-	color: #000000;
+	color: #3d4644;
 }
 
 /* line 491, ../scss/_custom.scss */
 footer div.social-icons a:hover i {
-	color: #666666;
+	color: #C29FD8;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
@@ -895,7 +910,7 @@ Global
 ==================================================================================================*/
 /* line 69, ../scss/_custom.scss */
 html {
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
 }
 
 /* line 73, ../scss/_custom.scss */
@@ -916,15 +931,15 @@ p a, li a, .thumbnail-caption a {
 	padding-bottom: 1px;
 	border-bottom-width: 1px;
 	border-bottom-style: none;
-	border-bottom-color: #000000;
+	border-bottom-color: #00acba;
 }
 
 /* line 84, ../scss/_custom.scss */
 p a:hover, li a:hover, .thumbnail-caption a:hover, .caption-hover {
-	color: #666666;
+	color: #C29FD8;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #000000;
+	border-bottom-color: #00acba;
 }
 
 /* line 89, ../scss/_custom.scss */
@@ -939,8 +954,9 @@ div.lined-list ul {
 
 /* line 97, ../scss/_custom.scss */
 .lined-list li {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: normal;
+ 	font-family: "DM Sans", sans-serif;
+ 	font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
     font-size: inherit;
     line-height: 1.5;
@@ -955,9 +971,10 @@ div.lined-list ul {
 
 /* line 112, ../scss/_custom.scss */
 .lined-list li strong {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
-    font-style: 600;
+ 	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 600;
+  	font-style: bold;
     font-size: inherit;
     line-height: 1.9em;
     letter-spacing: 0;
@@ -966,9 +983,9 @@ div.lined-list ul {
 
 /* line 122, ../scss/_custom.scss */
 .lined-list li:first-child {
-    border-top-color: #000000;
+    border-top-color: #00acba;
     border-top-style: none;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #00acba;
 }
 
 /* line 126, ../scss/_custom.scss */
@@ -1005,9 +1022,9 @@ ol li {
 
 /* line 154, ../scss/_custom.scss */
 .row blockquote p, .row blockquote {
-	color: #666666;
+	color: #C29FD8;
 	font-style: italic;
-	border-left-color: #000000;
+	border-left-color: #3d4644;
 	border-width: 2px;
 }
 
@@ -1015,7 +1032,7 @@ ol li {
 .row blockquote cite {
 	font-weight: bold;
 	font-style: normal;
-	color: #000000;
+	color: #3d4644;
 	font-size: 1em;
 	margin-top: 1em;
 }
@@ -1027,8 +1044,9 @@ div h1, div h2, div h3, div h4, div h5, div h6 {
 
 /* line 171, ../scss/_custom.scss */
 div div h2 {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: bold;
+ 	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.3;
@@ -1040,8 +1058,9 @@ div div h2 {
 
 /* line 181, ../scss/_custom.scss */
 div div h3 {
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.3;
@@ -1097,11 +1116,11 @@ Header & Nav
 .top-border {
 	border-top-width: 0px;
 	border-top-style: solid;
-	border-top-color: #000000;
-	background-color: #000000;
+	border-top-color: #00acba;
+	background-color: #00acba;
 	border-bottom-width: 0px;
 	border-bottom-style: solid;
-	border-bottom-color: #000000;
+	border-bottom-color: #00acba;
 }
 
 /* line 236, ../scss/_custom.scss */
@@ -1117,8 +1136,9 @@ header div.logo {
 
 /* line 245, ../scss/_custom.scss */
 div div header h1 {
- 	font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
- 	font-weight: bold;
+ 	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-weight: 600;
  	font-style: normal;
 	font-size: 1.625rem;
 	line-height: 1.3;
@@ -1126,7 +1146,7 @@ div div header h1 {
 	text-transform: none;
 	line-height: 1.1;
 	text-align: left;
-	color: #000000;
+	color: #3d4644;
 }
 
 /* line 258, ../scss/_custom.scss */
@@ -1137,8 +1157,9 @@ div div header h1 a {
 
 /* line 263, ../scss/_custom.scss */
 div div header h2 {
-	font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-family: "DM Sans", sans-serif;
+ 	font-optical-sizing: auto;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 0.8125rem;
 	line-height: 1.3;
@@ -1146,34 +1167,34 @@ div div header h2 {
 	text-transform: none;
 	line-height: 1.4;
 	text-align: left;
-	color: #000000;
+	color: #3d4644;
 	margin-top: 0.75em;
 }
 
 /* line 278, ../scss/_custom.scss */
 div div header h2 a {
   text-decoration: none;
-  color: #0d1d2a;
+  color: #3d4644;
 }
 
 /* line 283, ../scss/_custom.scss */
 div div header h1 a:hover, header h1 a:focus {
-  color: #0a161f;
+  color: #3d4644;
 }
 
 /* line 287, ../scss/_custom.scss */
 div div header h2 a:hover, header h2 a:focus {
-  color: #0d1d2a;
+  color: #3d4644;
 }
 
 /* line 291, ../scss/_custom.scss */
 nav {
     margin-bottom: 3em;
     background-color: #FFFFFF;
-    border-top: 2px solid #000000;
+    border-top: 2px solid #00acba;
     border-bottom-width: 2px;
     border-bottom-style: none;
-    border-bottom-color: #000000;
+    border-bottom-color: #00acba;
 }
 
 /* line 298, ../scss/_custom.scss */
@@ -1185,9 +1206,10 @@ nav ul.inline-list-custom {
 
 /* line 305, ../scss/_custom.scss */
 nav ul.inline-list-custom li {
-    font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+ 	font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: Semi-bold;
     font-size: 0.875rem;
     line-height: 2;
     letter-spacing: 0;
@@ -1207,16 +1229,16 @@ nav ul li a, nav ul li a:hover {
 
 /* line 324, ../scss/_custom.scss */
 a.current {
-	color: #000000;
+	color: #C29FD8;
 	pointer-events: none;
 }
 
 /* line 329, ../scss/_custom.scss */
 a.current:hover {
-	color: #000000;
+	color: #00acba;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: 000000;
+	border-bottom-color: #00acba;
 }
 
 /*==================================================================================================
@@ -1259,9 +1281,9 @@ Project
 
 /* line 369, ../scss/_custom.scss */
 .thumbnail-caption {
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-style: italic;
+ 	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-style: italic;
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: 0;
@@ -1301,7 +1323,7 @@ hr.project-detail-hr {
 /* line 403, ../scss/_custom.scss */
 .project-img h6 {
   padding-top: 1em;
-  font-family: 'Crimson Text', serif;
+  font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 0.875rem;
@@ -1320,7 +1342,7 @@ hr.project-detail-hr {
 /* line 420, ../scss/_custom.scss */
 .back-to-top {
 	border: none;
-	color: #000000;
+	color: #3d4644;
 }
 
 /* line 425, ../scss/_custom.scss */
@@ -1353,7 +1375,7 @@ footer {
     margin-top: 3em;
     padding-top: 4em;
     padding-bottom: 5em;
-    border-top: 2px solid #000000;
+    border-top: 2px solid #00acba;
 }
 
 /* line 456, ../scss/_custom.scss */
@@ -1365,7 +1387,8 @@ footer ul {
 
 /* line 462, ../scss/_custom.scss */
 footer li {
-	font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 0.8125rem;
@@ -1375,12 +1398,12 @@ footer li {
 	display: inline-block;
 	padding-left: 1em;
 	margin-right: 1em;
-	color: #000000;
+	color: #3d4644;
 }
 
 /* line 476, ../scss/_custom.scss */
 footer li a {
-	color: #000000;
+	color: #00acba;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
@@ -1395,12 +1418,12 @@ footer div.social-icons {
 footer div.social-icons i {
 	padding-left: 0.25em;
 	padding-right: 0.25em;
-	color: #000000;
+	color: #00acba;
 }
 
 /* line 491, ../scss/_custom.scss */
 footer div.social-icons a:hover i {
-	color: #666666;
+	color: #C29FD8;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
 	transition: color 0.2s ease-out;
@@ -1505,10 +1528,11 @@ body {
 
 /* line 325, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-    color: #000000;
+    color: #3d4644;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "DM Sans", sans-serif;
+  	font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     line-height: 1;
@@ -2155,7 +2179,8 @@ select {
 /* line 197, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   cursor: pointer;
-  font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2169,7 +2194,7 @@ button, .button {
   padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #666666;
+  background-color: #C29FD8;
   border-color: #04080c;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
@@ -2191,13 +2216,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 205, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ffffff;
+  border-color: #00acba;
   color: white;
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #000000;
+  background-color: #00acba;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2205,13 +2230,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 206, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ffffff;
+  border-color: #00acba;
   color: white;
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
@@ -2219,13 +2244,13 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 /* line 207, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert, .button.alert {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ffffff;
+  border-color: #00acba;
   color: white;
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -2308,8 +2333,8 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 221, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ffffff;
+  border-color: #00acba;
   color: white;
   cursor: "default";
   opacity: 0.7;
@@ -2318,7 +2343,7 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -2326,12 +2351,12 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #000000;
+  background-color: #00acba;
 }
 /* line 222, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #00acba;
+  border-color: #00acba;
   color: white;
   cursor: "default";
   opacity: 0.7;
@@ -2340,7 +2365,7 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .bu
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #000000;
+  background-color: #00acba;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -2348,12 +2373,12 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #000000;
+  background-color: #00acba;
 }
 /* line 223, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #00acba;
+  border-color: #00acba;
   color: white;
   cursor: "default";
   opacity: 0.7;
@@ -2362,7 +2387,7 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[d
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #000000;
+  background-color: #00acba;
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -2370,7 +2395,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #000000;
+  background-color: #00acba;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -2472,7 +2497,7 @@ label.inline {
 /* line 310, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label small {
   text-transform: capitalize;
-  color: #666666;
+  color: #C29FD8;
 }
 
 /* line 316, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -2825,7 +2850,7 @@ fieldset legend {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #000000;
+  background: #3d4644;
   color: white;
 }
 /* line 439, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -2842,7 +2867,7 @@ span.error, small.error {
   font-size: 0.75rem;
   font-weight: normal;
   font-style: italic;
-  background: #000000;
+  background: #3d4644;
   color: white;
 }
 
@@ -2855,7 +2880,7 @@ span.error, small.error {
 /* line 452, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
-  color: #000000;
+  color: #00acba;
 }
 /* line 457, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > small,
@@ -2866,8 +2891,8 @@ span.error, small.error {
   margin-bottom: 1rem;
   font-size: 0.75rem;
   font-weight: normal;
-  font-style: italic;
-  background: #000000;
+  font-style: normal;
+  background: #3d4644;
   color: white;
 }
 /* line 461, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -2883,7 +2908,7 @@ textarea.error {
 
 /* line 470, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label.error {
-  color: #000000;
+  color: #00acba;
 }
 
 /* line 190, ../bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -4922,13 +4947,13 @@ td {
 /* Default Link Styles */
 /* line 152, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-	color: #000000;
+	color: #3d4644;
 	text-decoration: none;
 	line-height: inherit;
 }
 /* line 158, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-	color: #000000;
+	color: #00acba;
 }
 /* line 160, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -4949,8 +4974,9 @@ a img {
 /* Default paragraph styles */
 /* line 164, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p {
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
+ 	font-family: "Merriweather", serif;
+ 	font-weight: 400;
+ 	font-style: normal;
     font-size: 1.15em;
     line-height: 1.5;
     margin-bottom: 1.25rem;
@@ -4961,7 +4987,7 @@ p {
 }
 /* line 174, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p aside {
-font-family: 'Crimson Text', serif;
+  font-family: "Merriweather", serif;
   font-weight: normal;
   font-size: 0.875rem;
   line-height: 1.35;
@@ -4971,10 +4997,11 @@ font-family: 'Crimson Text', serif;
 /* Default header styles */
 /* line 182, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Condensed', "Helvetica Neue", "Helvetica", sans-serif;
-    font-weight: 300;
+	font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
-    color: #000000;
+    color: #3d4644;
     text-rendering: optimizeLegibility;
     margin-top: 0.2rem;
     margin-bottom: 0.5rem;
@@ -4983,7 +5010,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 192, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #666666;
+    color: #C29FD8;
     line-height: 0;
 }
 
@@ -5011,9 +5038,10 @@ h4 {
 /* line 203, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
     font-size: 2.5rem;
-    font-family: 'Crimson Text', serif;
-    font-weight: 600;
-    color: #000000;
+ 	font-family: "Merriweather", serif;
+ 	font-weight: 700;
+ 	font-style: normal;
+    color: #00acba;
     text-rendering: optimizeLegibility;
     line-height: 1.4;
     margin-top: 0.175em;
@@ -5023,10 +5051,10 @@ h5 {
 /* line 204, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h6 {
     font-size: 1.35rem;
-    font-family: 'Crimson Text', serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #000000;
+	font-family: "Merriweather", serif;
+	font-weight: 400;
+	font-style: italic;
+    color: #00acba;
     text-rendering: optimizeLegibility;
     line-height: 1.4;
     margin-top: 0.175em;
@@ -5037,16 +5065,16 @@ hr {
     clear: both;
     margin: 1.25rem 0 1.1875rem;
     height: 0;
-    border-top: 2px none #000000;
+    border-top: 2px none #00acba;
     border-right-width: 0;
     border-bottom-width: 0;
     border-left-width: 0;
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-right-color: #000000;
-    border-bottom-color: #000000;
-    border-left-color: #000000;
+    border-right-color: #00acba;
+    border-bottom-color: #00acba;
+    border-left-color: #00acba;
 }
 
 /* Helpful Typography Defaults */
@@ -5086,7 +5114,7 @@ dl {
 	line-height: 1.5;
 	margin-bottom: 1.25rem;
 	list-style-position: outside;
-	font-family: roboto;
+	font-family: Merriweather;
 }
 
 /* line 251, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5184,7 +5212,7 @@ blockquote {
 	padding: 0.5625rem 1.25rem 0 1.1875rem;
 	border-left-width: 2px;
 	border-left-style: solid;
-	border-left-color: #000000;
+	border-left-color: #00acba;
 }
 /* line 328, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite {
@@ -5206,7 +5234,7 @@ blockquote cite a:visited {
 blockquote,
 blockquote p {
 	line-height: 1.5;
-	color: #666666;
+	color: #C29FD8;
 }
 
 /* Microformats */
@@ -5575,7 +5603,9 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 0.8125rem;
   font-weight: normal;
   background: #333333;
@@ -5593,7 +5623,7 @@ meta.foundation-mq-topbar {
 }
 /* line 302, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background: #000000;
+  background: #00acba;
 }
 /* line 304, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary:hover {
@@ -5601,7 +5631,7 @@ meta.foundation-mq-topbar {
 }
 /* line 308, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
-  background: #000000;
+  background: #00acba;
 }
 /* line 310, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success:hover {
@@ -5609,7 +5639,7 @@ meta.foundation-mq-topbar {
 }
 /* line 314, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
-  background: #000000;
+  background: #00acba;
 }
 /* line 316, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert:hover {
