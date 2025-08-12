@@ -13,7 +13,6 @@
   height: 593px;
   align-items: center;
   justify-content: center;
-  gap: 10px;
   padding: 60px 30px;
   position: relative;
   align-self: stretch;
@@ -96,7 +95,7 @@
 }
 
 .element-index .latest-work-section {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
@@ -134,7 +133,6 @@
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -149,7 +147,6 @@
 .element-index .headline-subhead-2 {
   display: flex;
   width: 315px;
-  gap: 10px;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
@@ -214,6 +211,7 @@
   gap: 17px;
   position: relative;
   flex: 0 0 auto;
+  margin-bottom: -2.00px;
 }
 
 .element-index .link {
@@ -563,6 +561,7 @@ a:hover {
   align-items: flex-start;
   position: relative;
   flex: 0 0 auto;
+  padding-bottom: 60px;
 }
 
 .element-about .image {
@@ -578,7 +577,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -654,7 +652,7 @@ a:hover {
   position: relative;
   width: fit-content;
   margin-bottom: -9.00px;
-  font-family: "DM Sans", Sans-Serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 300;
   color: #3d4644;
   font-size: 14.4px;
@@ -671,19 +669,20 @@ a:hover {
   gap: 17px;
   position: relative;
   flex: 0 0 auto;
+  margin-bottom: -2.00px;
 }
 
 .element-about .link {
-  position: relative;
   width: 20px;
+  position: relative;
   height: 18px;
   margin-top: -2.00px;
   margin-bottom: -2.00px;
 }
 
 .element-about .img {
-  position: relative;
   width: 19px;
+  position: relative;
   height: 18px;
   margin-top: -2.00px;
   margin-bottom: -2.00px;
@@ -730,6 +729,7 @@ a:hover {
   align-items: center;
   gap: 60px;
   padding: 50px 100px;
+  padding-bottom: 100px;
   position: relative;
   flex: 0 0 auto;
   background-color: #e6ecf1;
@@ -1061,7 +1061,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -1143,7 +1142,7 @@ a:focus {
 .element-shred .icons {
   display: inline-flex;
   height: 14px;
-  align-items: center;
+  align-items: bottom;
   justify-content: flex-end;
   gap: 17px;
   position: relative;
@@ -1250,7 +1249,6 @@ a:focus {
   flex-direction: column;
   width: 1080px;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1308,7 +1306,7 @@ a:focus {
 .element-shred .icons-2 {
   display: inline-flex;
   height: 14px;
-  align-items: center;
+  align-items: bottom;
   justify-content: flex-end;
   gap: 26px;
   position: relative;
@@ -1467,7 +1465,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -1669,7 +1666,6 @@ a:focus {
 }
 
 .element-shadow .frame-2 {
-  gap: 15px;
   flex: 1;
   flex-grow: 1;
   display: flex;
@@ -1910,7 +1906,6 @@ a:focus {
   flex-direction: column;
   width: 315px;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1919,7 +1914,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -2107,7 +2101,6 @@ a:focus {
 }
 
 .element-fail .frame-2 {
-  gap: 15px;
   flex: 1;
   flex-grow: 1;
   display: flex;
@@ -2372,7 +2365,6 @@ a:focus {
   flex-direction: column;
   width: 315px;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -2381,7 +2373,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -2468,6 +2459,7 @@ a:focus {
   flex: 0 0 auto;
   margin-bottom: -2.00px;
 }
+
 
 .element-fail .link {
   position: relative;
@@ -2569,7 +2561,6 @@ a:focus {
 }
 
 .element-fail .frame-2 {
-  gap: 15px;
   flex: 1;
   flex-grow: 1;
   display: flex;
@@ -2777,7 +2768,7 @@ a:focus {
   align-items: center;
   justify-content: center;
   gap: 25px;
-  padding: 0px 30px 60px;
+  padding: 30px 30px 0px 30px;
   background-color: #e6ecf1;
   position: relative;
   width: 375px;
@@ -2788,7 +2779,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -2799,7 +2789,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -2866,6 +2855,7 @@ a:focus {
   align-items: flex-start;
   justify-content: space-between;
   padding: 30px;
+  padding-top: 50px;
   position: relative;
   background-color: #e6ecf1;
 }
@@ -2982,7 +2972,6 @@ a:focus {
 }
 
 .element-mad .frame-2 {
-  gap: 15px;
   flex: 1;
   flex-grow: 1;
   display: flex;
@@ -3285,7 +3274,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -3296,7 +3284,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -3308,6 +3295,7 @@ a:focus {
   width: 315px;
   height: 30px;
   font-family: var(--mh1-font-family);
+  margin-top: 0px;
   margin-bottom: var(--mh1-margin-bottom);
   font-weight: var(--mh1-font-weight);
   color: var(--x-0-0acba);
@@ -3492,7 +3480,6 @@ a:focus {
 }
 
 .element-coyl .frame-2 {
-  gap: 15px;
   flex: 1;
   flex-grow: 1;
   display: flex;
@@ -3738,7 +3725,6 @@ a:focus {
   flex-direction: column;
   width: 315px;
   align-items: flex-start;
-  gap: 15px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -3747,7 +3733,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -3944,7 +3929,6 @@ a:focus {
 }
 
 .element-coyl .frame-2 {
-  gap: 15px;
   flex: 1;
   flex-grow: 1;
   display: flex;
