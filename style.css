@@ -1513,7 +1513,7 @@ a:focus {
 .element-shadow .paragraph {
   position: relative;
   width: 315px;
-  height: 297px;
+  height: 475px;
   font-family: var(--b1-font-family);
   font-weight: var(--b1-font-weight);
   margin-top: var(--b1-margin-top);
@@ -3769,7 +3769,7 @@ a:focus {
 .element-coyl .paragraph {
   position: relative;
   width: 315px;
-  height: 216px;
+  height: 355px;
   font-family: var(--b1-font-family);
   font-weight: var(--b1-font-weight);
   margin-top: var(--b1-margin-top);
